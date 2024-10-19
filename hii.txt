@@ -1,3 +1,23 @@
 Welcome to GIT world.
 
+			 add			commit			push
+working directory  ==>  staging area  ==>  local repository  ==>  central repository
+
 git init is used to initialize a empty git repository
+$git init
+
+git status is used check the tracked file(files present in staging area), untracked file(which are present in working directory)
+
+git add is used to add a file in the staging area.
+git add file_name.extension  or  (.) for all files
+
+
+git commit is used to commit the file to the local repository.
+$git commit -m "files uploaded"
+
+git log is used to see the commit history
+$git log
+
+git remote add origin is used to add it to central repository
+$git remote add origin https://link to central repositry
+
